@@ -10,6 +10,8 @@ git status -> mostra como está o dir
 git add -> adiciona o que será salvo (ainda não salvou, mas é o que será salvo)
 
 git log -> mostra os commits (saves)
+git diff -> o que tem de diferença do estado atual do seu arquivo em relação ao commit anterior
+git reset ("nome do arquivo") -> retira o arquivo do preparo para o commit
 
 = Fluxo de Trabalho =
 1. criar dir do projeto
