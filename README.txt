@@ -1,17 +1,16 @@
-lp
+Linkin Park
+ls -> Lista o que tem no diretorio
+pwd (print world director) -> Caminho absoluto da onde eu estou
+mkdir -> Cria pasta
+cat -> Mostra o que tem dentro do arquivo
+git init . -> A pasta selecionada se torna uma pasta especial (repositorio de git)
+rm -rf .git -> Exclui a pasta .git
+git status -> Mostra como está o dir
+git add -> Adiciona o que será salvo (ainda não salvou, mas é o que será salvo)
 
-ls -> lista o que tem no diretorio
-pwd (print world director) -> caminho absoluto da onde eu estou
-mkdir -> cria pasta
-cat -> mostra o que tem dentro do arquivo
-git init . -> pasta especial (repositorio de git)
-rm -rf .git -> exclui a pasta .git
-git status -> mostra como está o dir
-git add -> adiciona o que será salvo (ainda não salvou, mas é o que será salvo)
-
-git log -> mostra os commits (saves)
-git diff -> o que tem de diferença do estado atual do seu arquivo em relação ao commit anterior
-git reset ("nome do arquivo") -> retira o arquivo do preparo para o commit
+git log -> Mostra os commits (saves)
+git diff -> O que tem de diferença do estado atual do seu arquivo em relação ao commit anterior
+git reset ("nome do arquivo") -> Retira o arquivo do preparo para o commit
 
 = Fluxo de Trabalho =
 1. criar dir do projeto
