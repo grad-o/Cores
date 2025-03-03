@@ -6,12 +6,11 @@ git init . -> a pasta atual  vira uma pasta especial (repositorio de git)
 rm -rf .git -> exclui a pasta .git
 git status -> mostra como está o dir
 git add -> adiciona o que será salvo (ainda não salvou, mas é o que será salvo)
-
 git log -> mostra os commits (saves)
 git diff -> o que tem de diferença do estado atual do seu arquivo em relação ao commit anterior
 git reset ("nome do arquivo") -> retira o arquivo do preparo para o commit
 
-= Fluxo de Trabalho =
+## Fluxo de Trabalho
 1. criar dir do projeto
 2. iniciar git dentro do dir criado (git init .)
 3. edita ou cria arquivos
