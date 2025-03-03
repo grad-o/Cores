@@ -8,3 +8,23 @@ git remote add origin (link/ssh) "https://github.com/grad-o/Portifolio.git" -> c
 git push origin "branch" -> manda para origin (github/remote) o estado atual da branch
 git pull origin "branch" -> puxa da origin 
 git clone (url) -> clona um projeto especifico (precisa estar uma pasta a cima);
+
+## Fluxo de trabalho git local
+1. git chekout -b (nova-branch)
+2. Cria/atualiza arquivos
+3. git add (arquivos)
+4. git commit - m "(mensagem)"
+5. git checkout main
+6. git merge (nova branch)
+
+## Fluxo de Trabalho github <> local (projeto propio ou da organização)
+1. git clone (url do projeto fork)
+2. git checkout -b (nova-branch)
+3. alterações de arquivos
+4. git add (arquivos)
+5. git commit -m "(mensagem)"
+6. git push origin (nova branch)
+7. abrir Pull Request no Github da branch fork para a main do projeto original
+8. excluir (nova-branch) origin 
+9. git checkout main
+10.  git branch -D (nova-branch)
