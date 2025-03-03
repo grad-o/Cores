@@ -1,12 +1,12 @@
-git checkout -b "nome_da_branch" -> cria nova branch
+git checkout -b (nome_da_branch) -> cria nova branch
 git branch -> mostra as branchs
-git checkout "nome_da_branch" -> muda a branch
-git merge "nome_da_branch" -> mescla duas branchs (mescla aquela branch que esta selecionada com a que vc colocar o nome
-git branch -D "noome da cranch" -> deleta uma branch 
+git checkout (nome_da_branch) -> muda a branch
+git merge (nome_da_branch) -> mescla duas branchs (mescla aquela branch que esta selecionada com a que vc colocar o nome
+git branch -D (nome_da_branch) -> deleta uma branch 
 
-git remote add origin (link/ssh) "https://github.com/grad-o/Portifolio.git" -> cria um vinculo do local para a nuvem/github
-git push origin "branch" -> manda para origin (github/remote) o estado atual da branch
-git pull origin "branch" -> puxa da origin 
+git remote add origin (link/ssh) -> cria um vinculo do local para a nuvem/github
+git push origin (branch) -> manda para origin (github/remote) o estado atual da branch
+git pull origin (branch) -> puxa da origin 
 git clone (url) -> clona um projeto especifico (precisa estar uma pasta a cima);
 
 ## Fluxo de trabalho git local
