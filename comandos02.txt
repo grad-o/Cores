@@ -7,3 +7,4 @@ git branch -D "noome da cranch" -> deleta uma branch
 git remote add origin (link/ssh) "https://github.com/grad-o/Portifolio.git" -> cria um vinculo do local para a nuvem/github
 git push origin "branch" -> manda para origin (github/remote) o estado atual da branch
 git pull origin "branch" -> puxa da origin 
+git clone (url) -> clona um projeto especifico (precisa estar uma pasta a cima);
